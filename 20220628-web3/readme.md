@@ -11,8 +11,10 @@ $ npm install -D jest
 
 **package.json**
 ```json
-"scripts": {
-  "test": "jest"
+{
+  "scripts": {
+    "test": "jest"
+  }
 }
 ```
 
