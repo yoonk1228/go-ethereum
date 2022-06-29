@@ -8,8 +8,8 @@ describe('web3 테스트 코드',()=>{
   let sender
   let received
   it('web3 연결 테스트',()=>{
-    // web3 = new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:8545'))
-    web3 = new Web3('http://127.0.0.1:8545') // 예전 문법
+    web3 = new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:8545'))
+    // web3 = new Web3('http://127.0.0.1:8545') // 예전 문법
     console.log(web3)
   })
 
